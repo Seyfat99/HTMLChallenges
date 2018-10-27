@@ -1,0 +1,340 @@
+body {
+  background: linear-gradient(
+    to top,
+    rgb(255, 241, 235) 0%,
+    rgb(172, 224, 249) 100%
+  );
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+  box-sizing: border-box;
+}
+.static-nav {
+  display: flex;
+  height: 90px;
+  align-items: center;
+  padding: 0px 5px;
+  background: #093462;
+}
+.static-nav .selected {
+  border-bottom: 1px solid white;
+}
+.static-nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: inherit;
+  align-items: center;
+}
+
+.static-nav a {
+  text-decoration: none;
+  color: white;
+  font: 400 18px "Quicksand";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 5px;
+}
+h1 {
+  margin: 0 auto 0 0;
+  font: 25px "Quicksand";
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+.index-unord-list {
+  list-style: none;
+  display: flex;
+  margin: 20px 0;
+  padding: 0;
+  align-items: center;
+}
+.index-unord-list li {
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 175px;
+  height: 175px;
+  background: white;
+  color: white;
+  font: 400 18px "Quicksand";
+}
+.index-unord-list .red {
+  background: red;
+}
+.index-unord-list .orange {
+  background: orange;
+}
+.index-unord-list .yellow {
+  background: #e5e500;
+}
+.index-unord-list .green {
+  background: green;
+}
+.index-unord-list .blue {
+  background: blue;
+}
+.index-unord-list .indigo {
+  background: indigo;
+}
+.index-unord-list .violet {
+  background: violet;
+}
+.index-description {
+  font: 400 20px "Quicksand";
+  margin: 50px 0;
+  text-align: center;
+}
+/* EASY */
+.easy-section {
+  width: 1100px;
+  margin: 20px auto;
+  padding-left: 20px;
+  height: 350px;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+.easy-section p {
+  margin-left: 50px;
+  font: 400 18px "Quicksand";
+}
+.easy-section h2 {
+  display: inline-block;
+  font: 400 25px "Quicksand";
+  border-bottom: 1px solid black;
+}
+.easy-section__hobbies,
+.easy-section__about {
+  margin-left: 50px;
+}
+.easy-challenge-description {
+  font: 400 18px "Quicksand";
+  text-align: center;
+  width: 800px;
+  margin: 50px auto;
+}
+/* Medium */
+.medium-challenge-nav {
+  display: flex;
+  height: 90px;
+  align-items: center;
+  padding: 0px 5px;
+  margin: 20px 0;
+  background: #093462;
+}
+.medium-challenge-nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: inherit;
+  width: 100%;
+  align-items: center;
+}
+.medium-challenge-nav li {
+  margin: 0 auto;
+}
+
+.medium-challenge-nav a {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  display: block;
+  text-decoration: none;
+  color: white;
+  font: 400 18px "Quicksand";
+  text-transform: uppercase;
+}
+.medium-challenge-main {
+  position: relative;
+}
+.medium-challenge-main h2 {
+  color: black;
+  font: 400 30px "Quicksand";
+  text-align: center;
+}
+.medium-challenge-main p {
+  color: black;
+  font: 400 25px "Quicksand";
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.medium-challenge-main figure {
+  width: 300px;
+  height: 400px;
+}
+.medium-challenge-main img {
+  width: 100%;
+  height: 100%;
+}
+.medium-challenge-main aside {
+  background: white;
+  width: 280px;
+  height: 380px;
+  position: absolute;
+  top: 160px;
+  right: 0;
+  margin-right: 55px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+.medium-challenge-main p {
+  font: 400 20px "Quicksand";
+  padding: 0 5px;
+  margin-bottom: auto;
+}
+.medium-challenge-main a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid black;
+  font: 400 18px "Quicksand";
+  text-transform: uppercase;
+  width: 110px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 180px;
+}
+footer {
+  text-align: center;
+  font: 400 20px "Quicksand";
+}
+
+.hard-challenge-form {
+  max-width: 500px;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  margin: 10px auto;
+  padding: 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+  font: 400 18px "Quicksand";
+}
+.hard-challenge-form input[type="text"],
+select {
+  font: 400 18px "Quicksand";
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 4px;
+  margin: 0;
+  outline: 0;
+  padding: 7px;
+  width: 100%;
+  background-color: #e8eeef;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 30px;
+}
+select {
+  height: 35px;
+  color: black;
+}
+.hard-challenge-form .checkbox {
+  -webkit-appearance: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #eee;
+  border: 1px solid #555;
+  cursor: pointer;
+  margin-left: auto;
+}
+.hard-challenge-form .checkbox-wrap {
+  display: flex;
+}
+.hard-challenge-form .submit {
+  font: 400 16px "Quicksand";
+  border-radius: 50px;
+  height: 30px;
+  color: white;
+  margin: 0 auto;
+  display: block;
+  border: none;
+  cursor: pointer;
+  background: #093462;
+  width: 125px;
+}
+.hard-challenge-description {
+  font: 400 18px "Quicksand";
+  text-align: center;
+  width: 1000px;
+  margin: 50px auto;
+}
+.very-hard-challenge-nav {
+  display: flex;
+  height: 90px;
+  margin: 20px auto;
+  width: 800px;
+  align-items: center;
+  padding: 0px 5px;
+  background-color: #800000;
+}
+.very-hard-challenge-nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: inherit;
+  align-items: center;
+  width: 100%;
+}
+.very-hard-challenge-nav li {
+  margin: 0 auto;
+}
+.very-hard-challenge-nav a {
+  display: block;
+  text-decoration: none;
+  margin: 0 auto;
+  color: white;
+  font: 400 18px "Quicksand";
+  text-transform: uppercase;
+}
+.very-hard-challenge-nav li:hover .sub-menu {
+  display: block;
+}
+.very-hard-challenge-nav li:hover .sub-menu li:hover {
+  background: #500000;
+}
+.very-hard-challenge-nav .sub-menu {
+  padding: 2% 2% 2% 1%;
+  position: absolute;
+  background: #800000;
+  display: none;
+  max-width: 160px;
+  box-shadow: 0px 8px 16px 0px;
+}
+.very-hard-challenge-description {
+  font: 400 18px "Quicksand";
+  text-align: center;
+  width: 1000px;
+  margin: 50px auto;
+}
+#names-container {
+  list-style: none;
+  display: flex;
+  margin: 50px auto;
+  padding: 0;
+  height: 90px;
+  align-items: center;
+  width: 80%;
+  background: #093462;
+}
+#names-container li {
+  margin: 0 auto;
+  color: white;
+  font: 400 18px "Quicksand";
+  text-transform: uppercase;
+}
+#names-container span {
+  margin: 10px;
+  color: red;
+  font-weight: bold;
+}
+.very-hard2-challenge-description {
+  font: 400 18px "Quicksand";
+  text-align: center;
+  width: 1000px;
+  margin: 50px auto;
+}

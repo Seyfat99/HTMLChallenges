@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hard</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,700" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="static-nav">
+            <h1>Html Challenges</h1>
+            <ul>
+                <li>
+                    <a href="./index.html" class="unselected">Very-Easy</a>
+                </li>
+                <li>
+                    <a href="./easy.html" class="unselected">Easy</a>
+                </li>
+                <li>
+                    <a href="./medium.html" class="unselected">Medium</a>
+                </li>
+                <li>
+                    <a href="./hard.html" class="selected">Hard</a>
+
+                </li>
+                <li>
+                    <a href="./very-hard.html" class="unselected">Very-Hard</a>
+                </li>
+                <li>
+                    <a href="./very-hard2.html" class="unselected">Very-Hard-2</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+    <form action="#" method="get" class="hard-challenge-form">
+
+        <div>
+            <label for="firstName">First Name:</label>
+            <br>
+            <input type="text" id="firstName" name="firstName">
+        </div>
+
+        <div>
+            <label for="lastName">Last Name:</label>
+            <br>
+            <input type="text" id="lastName" name="lastName">
+        </div>
+
+        <div>
+            <p>Gender: </p>
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" value="male" checked>
+
+            <label for="gender">Female</label>
+            <input type="radio" name="gender" value="female">
+
+            <label for="gender">Other</label>
+            <input type="radio" name="gender" value="other">
+            <br>
+        </div>
+
+        <p>Choose Your Favorite Sport</p>
+
+        <select>
+            <option value="Soccer">Soccer</option>
+            <option value="Football">Football</option>
+            <option value="Baseball">Baseball</option>
+            <option value="Basketball">Basketball</option>
+            <option value="Hockey">Hockey</option>
+            <option value="other">Other</option>
+        </select>
+
+        <div>
+            <p>What Do You Like On Your Pizza?</p>
+            <div class="checkbox-wrap">
+                <label for="Pepperoni">Pepperoni</label>
+                <input type="checkbox" name="Pepperoni" value="Pepperoni" id="Pepperoni" class="checkbox">
+
+            </div>
+            <div class="checkbox-wrap">
+                <label for="Chicken">Chicken</label>
+                <input type="checkbox" name="Chicken" value="Chicken" id="Chicken" class="checkbox">
+            </div>
+
+            <div class="checkbox-wrap">
+                <label for="Cheese">Cheese</label>
+                <input type="checkbox" name="Cheese" value="Cheese" id="Cheese" class="checkbox">
+            </div>
+            <div class="checkbox-wrap">
+                <label for="Peppers">Peppeers</label>
+                <input type="checkbox" name="Peppers" value="Peppers" id="Peppers" class="checkbox">
+            </div>
+            <div class="checkbox-wrap">
+                <label for="Jalapeno">Jalapeno</label>
+                <input type="checkbox" name="Jalapeno" value="Jalapeno" id="Jalapeno" class="checkbox">
+            </div>
+        </div>
+
+        <input type="submit" value="Save" class="submit">
+    </form>
+    <p class="hard-challenge-description">
+        Create an HTML form with a GET method that will collect the following: First Name, Last Name, Gender (have them pick),
+        Favorite sport (from a dropdown list of at least 5), Checkboxes for what you like on your pizza (from a list of at
+        least 5) and the submit button should read, "Save".
+    </p>
+</body>
+
+</html>
